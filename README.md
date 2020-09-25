@@ -1,3 +1,13 @@
+<h1>Build and Publishing</h1>
+Build production version
+`ng run ngx-braintree:build:production`
+
+Publish to NPM
+cd dist/lib
+sign into npm
+npm publish
+
+
 <h1>Integrating Braintree in Angular applications</h1>
 
 This module integrates the Braintree Dropin UI integration (v3) with your Angular 4.x, 5.x, 6.x, 7.x and 8.x applications. The integration aims at componentizing the Braintree-Angular integration so that you can just use the component `<ngx-braintree></ngx-braintree>` anywhere in your application and you are good to go. 
